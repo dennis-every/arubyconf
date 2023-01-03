@@ -1,7 +1,7 @@
 #about-hero {
   margin-top: 40px;
   height: 100%;
-  background-image: url('/assets/images/about-hero.png');
+  background-image: url('../../assets/images/about-hero.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 0;
@@ -17,7 +17,7 @@
   #about-hero {
     height: calc(100vh - 93px);
     margin-top: 93px;
-    background-image: url('/assets/images/desktop_about_hero_bg.png');
+    background-image: url('../../assets/images/desktop_about_hero_bg.png');
     display: flex;
     flex-direction: column;
     justify-content: space-around;
