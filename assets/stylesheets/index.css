@@ -4,6 +4,12 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 #navbar {
   background: #fff;
   height: 63px;
@@ -35,7 +41,7 @@ body {
   background-image: url('/assets/images/mobile_intro_bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 0 12px;
+  padding: 0 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,4 +99,76 @@ body {
   color: #868686;
   font-size: 1rem;
   letter-spacing: -2%;
+}
+
+#program {
+  height: 100%;
+  background-image: url('/assets/images/program_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+#program > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+#program h1 {
+  font-size: 1.25rem;
+  letter-spacing: -4%;
+  margin-bottom: 1rem;
+}
+
+#program #bar {
+  background: #ff5438;
+  height: 1px;
+  width: 1.5rem;
+}
+
+.program-card {
+  margin-bottom: 0.4rem;
+  padding: 1rem 0.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  align-items: center;
+  height: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(59, 62, 69, 0.55);
+}
+
+#program .program-card > img {
+  height: 3.125rem;
+}
+
+#program .program-card > h3 {
+  margin: 0;
+  color: #ff5438;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -1%;
+  padding: 5px;
+}
+
+.program-card > p {
+  margin: 0;
+  font-size: 0.625rem;
+  line-height: 1.5rem;
+  letter-spacing: 6%;
+  font-weight: 700;
+}
+
+#program button {
+  margin: 2rem 1rem;
+  background: #ff4f38;
+  color: #fff;
+  border: none;
+  padding: 1.25rem 3.125rem;
 }
