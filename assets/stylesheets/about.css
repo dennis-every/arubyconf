@@ -122,3 +122,39 @@ ul {
   font-size: 0.9rem;
   letter-spacing: -3%;
 }
+
+#about-previous {
+  padding: 1rem 0.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+#about-previous h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  letter-spacing: -2%;
+}
+
+#about-previous #about-previous-bar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2px;
+  background: #a04038;
+}
+
+#about-previous #about-previous-text {
+  color: #838383;
+  font-size: 0.9rem;
+  letter-spacing: -3%;
+}
+
+#about-previous img {
+  margin-top: 1.5rem;
+}
