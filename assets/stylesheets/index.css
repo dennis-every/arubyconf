@@ -175,6 +175,24 @@ ul {
   color: #fff;
 }
 
+@media screen and (min-width: 768px) {
+  #program {
+    background-image: url('/assets/images/desktop_program_bg.png');
+    padding: 1rem 10%;
+  }
+
+  #program h1 {
+    margin-bottom: 5px !important;
+  }
+
+  #program article ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.2rem;
+    text-align: center;
+  }
+}
+
 #program > header {
   display: flex;
   flex-direction: column;
@@ -192,7 +210,7 @@ ul {
 #program #bar {
   background: #ff5438;
   height: 1px;
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .program-card {
@@ -233,6 +251,32 @@ ul {
   color: #fff;
   border: none;
   padding: 1.25rem 3.125rem;
+}
+
+#program #see_program {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #program article .program-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #program #see_program {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  #program #see_program a {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  #program button {
+    display: none;
+  }
 }
 
 #speakers {
