@@ -192,3 +192,23 @@ ul {
   flex-wrap: wrap;
   gap: 1.8rem;
 }
+
+#footer {
+  height: 100%;
+  background: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#footer img {
+  height: 32px;
+}
+
+#footer p {
+  color: #3b3e45;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+}
