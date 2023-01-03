@@ -273,10 +273,6 @@ ul {
     text-transform: uppercase;
     color: #fff;
   }
-
-  #program button {
-    display: none;
-  }
 }
 
 #speakers {
@@ -303,7 +299,22 @@ ul {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 12px;
-  margin-bottom: 1rem;
+}
+
+#speakers ul .desktop-only {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #speakers ul {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #speakers ul .desktop-only {
+    display: grid;
+  }
 }
 
 #speakers .speaker-card img {
@@ -350,4 +361,10 @@ ul {
 #speakers button i {
   margin-left: 0.5rem;
   color: #ff5438;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
 }
