@@ -107,6 +107,7 @@
 }
 
 #about-logo h2 {
+  padding: 1rem 3rem 0 3rem;
   font-size: 1.25rem;
   font-weight: 700;
   color: #2c2c2c;
@@ -114,7 +115,7 @@
 }
 
 #about-logo #about-logo-bar {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
   text-align: center;
   width: 2rem;
@@ -126,6 +127,29 @@
   color: #838383;
   font-size: 0.9rem;
   letter-spacing: -3%;
+}
+
+#about-logo #desktop-about-logo-text {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #about-logo {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #d5d5d5;
+  }
+
+  #about-logo #about-logo-text {
+    display: none;
+  }
+
+  #about-logo #desktop-about-logo-text {
+    display: block;
+    color: #838383;
+    font-size: 0.9rem;
+    letter-spacing: -3%;
+    padding: 0 5rem 2rem 5rem;
+  }
 }
 
 #about-previous {
