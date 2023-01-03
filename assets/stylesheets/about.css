@@ -61,11 +61,10 @@ ul {
 #about-hero-header h1 {
   margin: 0;
   font-size: 2rem;
+  font-weight: 700;
   line-height: 2rem;
   color: #f34e17;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
 }
 
 #about-text {
@@ -90,4 +89,36 @@ ul {
 #about-contact .email {
   font-weight: 700;
   text-decoration: underline;
+}
+
+#about-logo {
+  padding: 1rem 0.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+#about-logo h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  letter-spacing: -2%;
+}
+
+#about-logo #about-logo-bar {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 2rem;
+  height: 2px;
+  background: #a04038;
+}
+
+#about-logo #about-logo-text {
+  color: #838383;
+  font-size: 0.9rem;
+  letter-spacing: -3%;
 }
