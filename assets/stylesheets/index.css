@@ -1,10 +1,10 @@
 html,
 body {
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 #navbar {
-  box-sizing: border-box;
   background: #fff;
   height: 63px;
   padding: 0 23px;
@@ -12,6 +12,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #navbar i {
@@ -23,4 +27,70 @@ body {
 
 #navbar img {
   height: 51px;
+}
+
+#hero {
+  margin-top: 63px;
+  height: calc(100vh - 63px);
+  background-image: url('/assets/images/mobile_intro_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero-header {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+#hero-header > h3 {
+  color: #f34e17;
+  font-size: 1.5rem;
+}
+
+#hero-header > h1 {
+  text-transform: uppercase;
+  color: #f91503;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#hero article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50%;
+  padding-bottom: 2rem;
+}
+
+#hero #sub-theme {
+  background: #f8f8f8;
+  color: #515151;
+  font-size: 0.875rem;
+  letter-spacing: -1%;
+  padding: 1.25rem 0.875rem;
+  border: 5px solid #fff;
+}
+
+#hero #date-venue {
+  padding: 0 0.875rem;
+}
+
+#hero #date {
+  color: #595959;
+  letter-spacing: -8%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#hero #venue {
+  color: #868686;
+  font-size: 1rem;
+  letter-spacing: -2%;
 }
