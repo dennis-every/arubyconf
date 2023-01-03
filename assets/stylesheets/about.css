@@ -208,6 +208,12 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  #about-partners {
+    display: none;
+  }
+}
+
 #about-partners h2 {
   font-size: 1.25rem;
   font-weight: 500;
