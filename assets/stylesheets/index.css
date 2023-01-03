@@ -273,12 +273,6 @@
   color: #ff5438;
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-only {
-    display: none;
-  }
-}
-
 #home-partners {
   display: none;
 }

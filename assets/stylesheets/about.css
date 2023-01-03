@@ -1,5 +1,5 @@
 #about-hero {
-  margin-top: 63px;
+  margin-top: 40px;
   height: 100%;
   background-image: url('/assets/images/about-hero.png');
   background-repeat: no-repeat;
@@ -7,6 +7,31 @@
   padding: 0;
   display: grid;
   grid-template-rows: 1.5fr 1.5fr 1fr;
+}
+
+#about-hero-bar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #about-hero {
+    height: calc(100vh - 93px);
+    margin-top: 93px;
+    background-image: url('/assets/images/desktop_about_hero_bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #about-hero-bar {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2px;
+    background: #a04038;
+  }
 }
 
 #about-hero-header {
@@ -37,6 +62,19 @@
   align-items: center;
   letter-spacing: -6%;
   padding: 1.5rem 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  #about-text {
+    display: none;
+  }
+
+  #desktop-about-text {
+    width: 67%;
+    background: #fff;
+    padding: 2rem 4rem;
+    text-align: center;
+  }
 }
 
 #about-contact {
