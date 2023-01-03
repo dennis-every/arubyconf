@@ -2,3 +2,25 @@ html,
 body {
   font-family: 'Lato', sans-serif;
 }
+
+#navbar {
+  box-sizing: border-box;
+  background: #fff;
+  height: 63px;
+  padding: 0 23px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar i {
+  font-size: 29px;
+  position: absolute;
+  top: 17px;
+  left: 23px;
+}
+
+#navbar img {
+  height: 51px;
+}
