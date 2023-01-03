@@ -407,3 +407,31 @@ ul {
     gap: 1.8rem;
   }
 }
+
+#footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #footer {
+    height: 100%;
+    background: #fff;
+    padding: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2rem;
+  }
+
+  #footer img {
+    height: 32px;
+  }
+
+  #footer p,
+  #footer span {
+    color: #3b3e45;
+    font-weight: 700;
+    font-size: 10px;
+  }
+}
