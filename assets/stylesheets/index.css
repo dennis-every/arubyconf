@@ -1,96 +1,5 @@
-html,
-body {
-  font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#navbar {
-  background: #fff;
-  height: 63px;
-  padding: 0 23px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-#navbar > ul {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  #navbar {
-    padding: 0 2rem;
-    top: 30px;
-    justify-content: space-between;
-  }
-
-  #navbar > i {
-    display: none;
-  }
-
-  #navbar > ul {
-    display: flex;
-    align-items: center;
-    column-gap: 2rem;
-  }
-
-  #navbar > ul a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  #navbar > ul a:hover {
-    color: #f34e17;
-    font-weight: 700;
-  }
-
-  #navbar > ul #cc_campaign {
-    border: 3px solid #f34e17;
-    color: #f34e17;
-    padding: 2px 10px;
-  }
-
-  #nav-banner {
-    color: #fff;
-    background: #3e3e3e;
-    height: 30px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-size: 0.75rem;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    column-gap: 2rem;
-  }
-}
-
-#navbar i {
-  font-size: 29px;
-  position: absolute;
-  top: 17px;
-  left: 23px;
-}
-
-#navbar img {
-  height: 51px;
-}
-
 #hero {
-  margin-top: 63px;
+  margin-top: 40px;
   height: calc(100vh - 63px);
   background-image: url('/assets/images/mobile_intro_bg.png');
   background-repeat: no-repeat;
@@ -103,6 +12,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   #hero {
+    margin-top: 93px;
     background-image: url('/assets/images/desktop_hero_bg.png');
     padding-left: 20%;
     padding-right: 30%;
