@@ -1,0 +1,93 @@
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background: #fff;
+  height: 63px;
+  padding: 0 23px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navbar i {
+  font-size: 29px;
+  position: absolute;
+  top: 17px;
+  left: 23px;
+}
+
+#navbar img {
+  height: 51px;
+}
+
+#about-hero {
+  margin-top: 63px;
+  height: 100%;
+  background-image: url('/assets/images/about-hero.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1.5fr 1.5fr 1fr;
+}
+
+#about-hero-header {
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+#about-hero-header h3 {
+  color: #f34e17;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#about-hero-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #f34e17;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#about-text {
+  background: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: -6%;
+  padding: 1.5rem 0.75rem;
+}
+
+#about-contact {
+  padding: 1rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #7a7a7a;
+}
+
+#about-contact .email {
+  font-weight: 700;
+  text-decoration: underline;
+}
