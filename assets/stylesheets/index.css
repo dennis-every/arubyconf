@@ -368,3 +368,42 @@ ul {
     display: none;
   }
 }
+
+#home-partners {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #home-partners {
+    background: #414246;
+    height: 100%;
+    color: #fff;
+    padding: 1rem 0.75rem 3rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+
+  #home-partners h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  #home-partners #home-partners-bar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 2rem;
+    height: 2px;
+    background: #a04038;
+  }
+
+  #home-partners #home-partners-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
+}
