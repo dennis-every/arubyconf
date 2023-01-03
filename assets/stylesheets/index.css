@@ -101,6 +101,14 @@ ul {
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  #hero {
+    background-image: url('/assets/images/desktop_hero_bg.png');
+    padding-left: 20%;
+    padding-right: 30%;
+  }
+}
+
 #hero-header {
   height: 50%;
   display: flex;
