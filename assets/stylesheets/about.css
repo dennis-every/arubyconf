@@ -153,8 +153,42 @@ ul {
   color: #838383;
   font-size: 0.9rem;
   letter-spacing: -3%;
+  margin-bottom: 2rem;
 }
 
 #about-previous img {
-  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#about-partners {
+  background: #414246;
+  height: 100%;
+  color: #fff;
+  padding: 1rem 0.75rem 3rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+#about-partners h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+#about-partners #about-partners-bar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2px;
+  background: #a04038;
+}
+
+#about-partners #about-partners-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.8rem;
 }
