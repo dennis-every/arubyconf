@@ -172,6 +172,50 @@
   letter-spacing: -2%;
 }
 
+#about-previous-images article {
+  border-radius: 2px;
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#about-previous-images h3 {
+  font-weight: bold;
+}
+
+#about-previous-images #about-previous-2022 {
+  background-image: url('../../assets/images/about-previous-2022.jpeg');
+  background-size: cover;
+  position: relative;
+}
+
+#about-previous-images #about-previous-2021 {
+  background-image: url('../../assets/images/about-previous-2021.jpeg');
+  background-size: cover;
+  position: relative;
+}
+
+#about-previous-images #about-previous-2022::before,
+#about-previous-images #about-previous-2021::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(265, 60, 0, 0.65);
+}
+
+#about-previous-images #about-previous-2022 *,
+#about-previous-images #about-previous-2021 * {
+  position: relative;
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   #about-previous-images {
     display: flex;
