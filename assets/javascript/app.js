@@ -31,7 +31,7 @@ const speakersArray = [
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
       'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-    imageUrl: './assets/images/speaker_01.png',
+    imageUrl: 'assets/images/speaker_01.png',
     alt: 'speaker_01',
   },
   {
@@ -41,7 +41,7 @@ const speakersArray = [
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
       'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-    imageUrl: './assets/images/speaker_01.png',
+    imageUrl: 'assets/images/speaker_01.png',
     alt: 'speaker_01',
   },
   {
@@ -51,7 +51,7 @@ const speakersArray = [
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
       'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-    imageUrl: './assets/images/speaker_01.png',
+    imageUrl: 'assets/images/speaker_01.png',
     alt: 'speaker_01',
   },
   {
@@ -61,7 +61,7 @@ const speakersArray = [
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
       'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-    imageUrl: './assets/images/speaker_01.png',
+    imageUrl: 'assets/images/speaker_01.png',
     alt: 'speaker_01',
   },
   {
@@ -71,7 +71,7 @@ const speakersArray = [
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
       'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-    imageUrl: './assets/images/speaker_01.png',
+    imageUrl: 'assets/images/speaker_01.png',
     alt: 'speaker_01',
   },
   {
@@ -81,7 +81,7 @@ const speakersArray = [
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
       'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-    imageUrl: './assets/images/speaker_01.png',
+    imageUrl: 'assets/images/speaker_01.png',
     alt: 'speaker_01',
   },
 ];
