@@ -48,8 +48,9 @@
 
 #about-hero-header h1 {
   margin: 0;
-  font-size: 2rem;
-  font-weight: 700;
+  font-family: 'cocogoose', sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
   line-height: 2rem;
   color: #f34e17;
   text-align: center;

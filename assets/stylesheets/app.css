@@ -123,8 +123,6 @@ ul {
   height: 100vh;
   z-index: 9999;
   background: #f34e17;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(10px);
 }
 
 #mobile-menu > header {
