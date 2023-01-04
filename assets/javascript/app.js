@@ -95,7 +95,7 @@ const speakersLoadHandler = () => {
       speakerCard.classList.add('desktop-only');
     }
     speakerCard.innerHTML = `
-      <img src="${speaker.imageUrl}" alt="${speaker.alt}" />
+      <img src=${speaker.imageUrl} alt="${speaker.alt}" />
       <div class="speaker">
         <h3 class="speaker-name">${speaker.name}</h3>
         <p class="speaker-title">
