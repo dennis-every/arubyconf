@@ -92,8 +92,9 @@
   color: #7a7a7a;
 }
 
-#about-contact .email {
+#about-contact .email a {
   font-weight: 700;
+  color: inherit;
   text-decoration: underline;
 }
 
