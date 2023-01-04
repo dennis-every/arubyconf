@@ -143,7 +143,7 @@ To run tests, run the following command:
 
 - [ ] **Make MORE button on the home page functional**
 - [ ] **Tickets page**
-- [ ] **Schedula page**
+- [ ] **Schedule page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
