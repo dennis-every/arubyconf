@@ -247,10 +247,11 @@
 }
 
 #mobile-footer img {
-  height: 32px;
+  height: 42px;
 }
 
 #mobile-footer p {
+  margin-top: 0.8rem;
   color: #3b3e45;
   font-weight: 700;
   font-size: 10px;
@@ -270,17 +271,19 @@
 @media screen and (min-width: 768px) {
   #desktop-footer {
     height: 100%;
-    background: #2e2e2e;
+    background: #000;
     color: #fff;
     padding: 4rem;
     display: grid;
+    padding-left: 4rem;
+    padding-right: 4rem;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 2rem;
   }
 
   #desktop-footer img {
-    height: 32px;
+    height: 64px;
   }
 
   #desktop-footer p,

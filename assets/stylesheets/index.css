@@ -13,7 +13,7 @@
 @media screen and (min-width: 768px) {
   #hero {
     margin-top: 93px;
-    background-image: url("../../assets/images/desktop_hero_bg.png");
+    background-image: url('../../assets/images/desktop_hero_bg.png');
     padding-left: 20%;
     padding-right: 30%;
   }
@@ -320,7 +320,7 @@
   #footer {
     height: 100%;
     background: #fff;
-    padding: 2rem 4rem;
+    padding: 2rem 20%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
@@ -328,7 +328,7 @@
   }
 
   #footer img {
-    height: 32px;
+    height: 64px;
   }
 
   #footer p,
