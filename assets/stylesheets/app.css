@@ -45,27 +45,6 @@ ul {
     column-gap: 2rem;
   }
 
-  #navbar > ul a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  #navbar > ul a:hover {
-    color: #f34e17;
-    font-weight: 700;
-  }
-
-  #navbar #cc_campaign a {
-    border: 3px solid #f34e17;
-    color: #f34e17;
-    padding: 5px 10px;
-  }
-
-  #navbar #cc_campaign a:hover {
-    background: #f34e17;
-    color: #fff;
-  }
-
   #nav-banner {
     color: #fff;
     background: #3e3e3e;
@@ -87,9 +66,30 @@ ul {
     text-decoration: none;
   }
 
+  #navbar > ul a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   #nav-banner a:hover {
     color: #f34e17;
     font-weight: 700;
+  }
+
+  #navbar > ul a:hover {
+    color: #f34e17;
+    font-weight: 700;
+  }
+
+  #navbar #cc_campaign a {
+    border: 3px solid #f34e17;
+    color: #f34e17;
+    padding: 5px 10px;
+  }
+
+  #navbar #cc_campaign a:hover {
+    background: #f34e17;
+    color: #fff;
   }
 }
 
