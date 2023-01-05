@@ -1,0 +1,169 @@
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background: #fff;
+  height: 63px;
+  padding: 0 23px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navbar > ul {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #navbar {
+    padding: 0 2rem;
+    top: 30px;
+    justify-content: space-between;
+  }
+
+  #navbar > i {
+    display: none;
+  }
+
+  #navbar > ul {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  #nav-banner {
+    color: #fff;
+    background: #3e3e3e;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.75rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  #nav-banner a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #navbar > ul a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #nav-banner a:hover {
+    color: #f34e17;
+    font-weight: 700;
+  }
+
+  #navbar > ul a:hover {
+    color: #f34e17;
+    font-weight: 700;
+  }
+
+  #navbar #cc_campaign a {
+    border: 3px solid #f34e17;
+    color: #f34e17;
+    padding: 5px 10px;
+  }
+
+  #navbar #cc_campaign a:hover {
+    background: #f34e17;
+    color: #fff;
+  }
+}
+
+#navbar i {
+  font-size: 29px;
+  position: absolute;
+  top: 17px;
+  left: 23px;
+}
+
+#navbar img {
+  height: 51px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+/* MOBILE MENU */
+
+#mobile-menu {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: #f34e17;
+}
+
+#mobile-menu > header {
+  width: 100%;
+  height: 48px;
+  padding: 1.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#mobile-links {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#mobile-links li > a {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  #mobile-menu {
+    display: none !important;
+  }
+}
