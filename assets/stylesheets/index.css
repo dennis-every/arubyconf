@@ -101,7 +101,7 @@
     padding: 1rem 10%;
   }
 
-  #program h1 {
+  #program h2 {
     margin-bottom: 5px !important;
   }
 
@@ -121,7 +121,7 @@
   padding-bottom: 2.5rem;
 }
 
-#program h1 {
+#program h2 {
   font-size: 1.25rem;
   letter-spacing: -4%;
   margin-bottom: 1rem;
@@ -198,14 +198,14 @@
 #speakers {
   background: #fff;
   height: 100%;
-  padding: 1.5rem 0.75rem 3rem 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 #speakers header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1rem;
   padding-bottom: 2.5rem;
 }
 
@@ -215,10 +215,22 @@
   width: 3rem;
 }
 
+#speakers ul {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 #speakers .speaker-card {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  gap: 12px;
+  gap: 1rem;
+}
+
+#speakers button {
+  margin-top: 3rem;
 }
 
 #speakers ul .desktop-only {
@@ -226,6 +238,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  #speakers {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
   #speakers ul {
     display: grid;
     gap: 1.5rem;
@@ -238,8 +254,8 @@
 }
 
 #speakers .speaker-card img {
-  height: 6.625rem;
-  width: 6.625rem;
+  height: 8rem;
+  width: 8rem;
   background-size: 100% 100%;
 }
 
@@ -291,7 +307,7 @@
   #home-partners {
     background: #414246;
     height: 100%;
-    color: #fff;
+    color: #8f8f91;
     padding: 1rem 0.75rem 3rem 0.75rem;
     display: flex;
     flex-direction: column;
@@ -306,7 +322,6 @@
   }
 
   #home-partners #home-partners-bar {
-    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
     width: 2rem;
@@ -319,6 +334,10 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.8rem;
+  }
+
+  #home-partners #home-partners-logos img {
+    height: 3.2rem;
   }
 }
 
